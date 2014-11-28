@@ -1,12 +1,5 @@
 {
     "NODE_ENV": "production",
     "forum": {
-        "oauth": {
-            "{host}": {
-                "clientId": "your client id for your {host}",
-                "secret": "your secret key for your {host}",
-                "redirectUrl": "your redirect url for your {host}"
-            }
-        }
     }
 }

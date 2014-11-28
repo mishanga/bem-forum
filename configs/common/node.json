@@ -1,15 +1,27 @@
 {
     "forum": {
-        "port": 3000,
+        "port": 2368,
         "auth": {
             "tokens": [
                 "7a2fb4d7a380f8a20562f5fc910f35d3b1605341"
             ]
         },
+        "oauth": {
+            "nnfrontend.ru": {
+                "clientId": "af0a675972d75dfed34d",
+                "secret": "5843464cc0399bd08324affa7ec55003a61050ad",
+                "redirectUrl": "http://nnfrontend.ru/"
+            },
+            "alpha.nnfrontend.ru": {
+                "clientId": "9ec48d469749aa6a829a",
+                "secret": "67167293e76ae3d9b59fdfa54907372fbe78bf35",
+                "redirectUrl": "http://alpha.nnfrontend.ru/"
+            }
+        },
         "owner_token": "",
-        "labelsRequired": false,
+        "labelsRequired": true,
         "storage": {
-            "user": "tavriaforever",
+            "user": "nnfrontend",
             "repo": "bem-forum-tests"
         },
         "archive": "archive.json",
